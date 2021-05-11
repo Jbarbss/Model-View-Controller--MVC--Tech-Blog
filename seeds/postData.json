@@ -1,0 +1,17 @@
+[
+    {
+        "post_title": "First Post",
+        "post_content": "This is my first post ",
+        "date_created": "May 29, 2017"
+    },
+    {
+        "post_title": "Second Post",
+        "post_content": "This is my second post ",
+        "date_created": "April 3, 2007"
+    },
+    {
+        "post_title": "Third Post",
+        "post_content": "This is my third post ",
+        "date_created": "July 4, 2020"
+    }
+]

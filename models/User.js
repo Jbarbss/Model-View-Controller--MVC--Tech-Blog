@@ -52,7 +52,7 @@ hooks: {
     },
     beforeUpdate: async (updatedUserData) => {
         updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
-        return updatedUserDatal
+        return updatedUserData
     },
 
 },
