@@ -1,4 +1,4 @@
-const router = require("express").router();
+const router = require("express").Router();
 const { User, Post, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 
@@ -53,7 +53,7 @@ router.get('/post/"id', async (req, res) => {
       }
       ],
     })
-      
+
 
     const post = postData.get({ plain: true });
 

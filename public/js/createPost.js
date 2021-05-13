@@ -23,4 +23,4 @@ const createPostHandler = async (event) => {
   }
 
 
-document.querySelector('#create-new-post').addEventListener(submit, createPostHandler);
+document.querySelector('.create-new-post').addEventListener('submit',createPostHandler);
