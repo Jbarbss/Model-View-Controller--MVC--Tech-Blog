@@ -111,6 +111,8 @@ npm start
 
 [Heroku Site] https://still-scrubland-37470.herokuapp.com/
 
+![ScreenShot](/Users/mac/Desktop/bootcamp/Homework/Model-View-Controller--MVC--Tech-Blog/screenshot/Screenshot.jpg "Main Page")
+
 
  
 ## Contributions
