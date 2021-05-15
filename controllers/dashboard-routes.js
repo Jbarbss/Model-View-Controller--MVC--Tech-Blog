@@ -17,7 +17,7 @@ router.get('/', withAuth, (req, res) => {
       },
       attributes: [
         'id',
-        'post_text',
+        'post_content',
         'title',
         'created_at',
       ],
@@ -47,6 +47,10 @@ router.get('/', withAuth, (req, res) => {
       });
   });
 
+router.get('/create', withAuth, (req, res) => {
+  res.render('create-post', { loggedIn: true })
+})
+
 // A route to edit a post
 router.get('/edit/:id', withAuth, (req, res) => {
   // All of the users posts are obtained from the database
@@ -56,7 +60,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
     },
     attributes: [
       'id',
-      'post_text',
+      'post_content',
       'title',
       'created_at',
     ],
