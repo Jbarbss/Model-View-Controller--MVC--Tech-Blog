@@ -107,9 +107,9 @@ npm start
 
 ### Links
 
-[Deployed Github Repo] https://github.com/Jbarbss/E-Commerce-Backend
+[Deployed Github Repo] https://github.com/Jbarbss/Model-View-Controller--MVC--Tech-Blog
 
-[Heroku Site] https://drive.google.com/file/d/1m1t_6v655Gxp9eq6fGAZW-IIBJCnBqD2/view
+[Heroku Site] https://still-scrubland-37470.herokuapp.com/
 
 
  
