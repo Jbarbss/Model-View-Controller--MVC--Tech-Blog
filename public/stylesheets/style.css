@@ -7,7 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: rgb(180, 141, 249);
 }
 
 a {
@@ -114,7 +114,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: #f2fe73;
 }
 
 .edit-link {
